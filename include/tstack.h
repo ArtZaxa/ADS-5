@@ -20,6 +20,7 @@ class TStack {
         arr = temp;
         capacity = newCapacity;
     }
+
  public:
     TStack()
         : capacity(InitialSize > 0 ? InitialSize : 1),
