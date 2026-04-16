@@ -4,7 +4,9 @@
 
 template<typename T, int InitialSize>
 class TStack {
+
 private:
+
     T* arr;
     int capacity;
     int topIndex;
@@ -20,7 +22,9 @@ private:
         arr = temp;
         capacity = newCapacity;
     }
+
 public:
+
     TStack()
         : capacity(InitialSize > 0 ? InitialSize : 1),
           topIndex(-1) {
