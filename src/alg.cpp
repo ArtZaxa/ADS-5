@@ -90,7 +90,7 @@ int eval(const std::string& post) {
         }
         if (std::isdigit(static_cast<unsigned char>(post[i]))) {
             int value = 0;
-            while (i < post.size() && 
+            while (i < post.size() &&
                 std::isdigit(static_cast<unsigned char>(post[i]))) {
                 value = value * 10 + (post[i] - '0');
                 ++i;
